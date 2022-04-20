@@ -31,4 +31,8 @@ project {
 
 object HelloWorld : BuildType({
     name = "hello world (rename)"
+    
+    params {
+    param("new.parameter", "new.value")
+}
 })
