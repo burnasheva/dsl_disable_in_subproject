@@ -61,7 +61,7 @@ object VersionedSettings_DisableVersionedSettingsInSubprojec_RunParallelTests : 
 
     features {
         parallelTests {
-            numberOfBatches = 2
+            numberOfBatches = 3
         }
     }
     
