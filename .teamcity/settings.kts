@@ -35,7 +35,7 @@ project {
 }
 
 object HelloWorld : BuildType({
-    name = "hello world"
+    name = "hello world (rename)"
 })
 
 
