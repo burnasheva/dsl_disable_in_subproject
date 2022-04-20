@@ -40,7 +40,7 @@ object VersionedSettings_DisableVersionedSettingsInSubprojec_HelloWorld : BuildT
     name = "hello world (rename)"
 
     params {
-        param("new.parameter", "new.value.3")
+        param("new.parameter", "new.value.5")
     }
 })
 
