@@ -64,6 +64,10 @@ object VersionedSettings_DisableVersionedSettingsInSubprojec_RunParallelTests : 
             numberOfBatches = 2
         }
     }
+    
+    params {
+        param("new.parameter", "new.value.1")
+    }
 })
 
 object VersionedSettings_DisableVersionedSettingsInSubprojec_MavenTestsRoot : GitVcsRoot({
