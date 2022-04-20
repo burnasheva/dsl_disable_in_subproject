@@ -37,7 +37,7 @@ project {
 
 object VersionedSettings_DisableVersionedSettingsInSubprojec_HelloWorld : BuildType({
     id("HelloWorld")
-    name = "hello world (rename)"
+    name = "hello world"
 
     params {
         param("new.parameter", "new.value.5")
